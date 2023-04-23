@@ -13,14 +13,20 @@ const Header = () => {
             &#9776;
           </button>
           <nav className="hidden space-x-8 text-xl sm:block" aria-label="main">
-            <a href="#rockets" className="hover:opacity-90">Rockets</a>
-            <a href="#testimonials" className="hover:opacity-90">Testimonials</a>
-            <a href="#contacts" className="hover:opacity-90">Contact US</a>
+            <a href="#rockets" className="hover:opacity-90">
+              Rockets
+            </a>
+            <a href="#testimonials" className="hover:opacity-90">
+              Testimonials
+            </a>
+            <a href="#contacts" className="hover:opacity-90">
+              Contact US
+            </a>
           </nav>
         </div>
       </section>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

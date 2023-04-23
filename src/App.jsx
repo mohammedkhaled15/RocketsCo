@@ -7,7 +7,7 @@ import Contacts from "./components/Contacts";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
+    <div className=" min-h-screen bg-slate-50 dark:bg-black dark:text-white">
       <Header />
       <Main />
       <Horizontal />
@@ -17,5 +17,5 @@ export default function App() {
       <Horizontal />
       <Contacts />
     </div>
-  )
+  );
 }

@@ -1,8 +1,5 @@
-
 const Horizontal = () => {
-    return (
-        <hr className='mx-auto bg-black dark:bg-white w-1/2'></hr>
-    )
-}
+  return <hr className="mx-auto w-1/2 bg-black dark:bg-white"></hr>;
+};
 
-export default Horizontal
+export default Horizontal;
