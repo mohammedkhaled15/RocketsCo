@@ -3,7 +3,7 @@ const Main = () => {
     <main className="mx-auto max-w-4xl ">
       <section
         id="hero"
-        className="mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row"
+        className="widescreen:section-min-height tallscreen:section-min-height mb-12 flex scroll-mt-40 flex-col-reverse items-center justify-center gap-8 p-6 sm:flex-row"
       >
         <article className="sm:w-1/2">
           <h2 className="text-slate-00 max-w-md text-center text-4xl font-bold dark:text-white sm:text-left sm:text-5xl">

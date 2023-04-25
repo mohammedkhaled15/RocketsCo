@@ -4,6 +4,7 @@ import Main from "./components/Main";
 import Rockets from "./components/Rockets";
 import Testimonials from "./components/Testimonials";
 import Contacts from "./components/Contacts";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Testimonials />
       <Horizontal />
       <Contacts />
+      <Footer />
     </div>
   );
 }
