@@ -10,19 +10,19 @@ const Rockets = () => {
       <ul className="mx-auto my-12 flex list-none flex-col items-center justify-center gap-8 sm:flex-row">
         {[
           {
-            img: "/src/assets/img/rocketman.png",
+            img: "/imgs/rocketman.png",
             title: "Explorer",
             largeP: "$",
             smallP: "Affordable Exploration",
           },
           {
-            img: "/src/assets/img/rocketride.png",
+            img: "/imgs/rocketride.png",
             title: "Adventurer",
             largeP: "$$",
             smallP: "Best Selling Rockets!",
           },
           {
-            img: "/src/assets/img/rocketlaunch.png",
+            img: "/imgs/rocketlaunch.png",
             title: "Infinity",
             largeP: "$$$",
             smallP: "Luxury Starship ",
