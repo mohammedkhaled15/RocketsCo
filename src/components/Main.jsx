@@ -24,7 +24,7 @@ const Main = () => {
         </article>
         <img
           className="w-1/2"
-          src="/src/assets/img/rocketdab.png"
+          src="/img/rocketdab.png"
           alt="Rocket Dab"
         />
       </section>
